@@ -1,0 +1,44 @@
+package com.basic.interfaces;
+
+
+Public class Vehicle {
+	
+}
+
+class Vehicle implements Drivable {
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Car is driven");
+		
+	}
+
+}
+
+
+class Truck implements Drivable {
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Truck is driven");
+		
+	}
+
+}
+
+
+class Bike implements Drivable {
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Bike is driven");
+		
+	}
+
+}

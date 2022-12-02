@@ -1,0 +1,20 @@
+package com.basic.ref;
+
+public class RefDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Ref Method Demo");
+		
+		//Providing implementation of functional interface
+		
+		IWork iwork = () -> {
+			System.out.println("Printing Iwork interface do project method");
+		};
+		
+	iwork.doProject();
+
+	}
+
+}

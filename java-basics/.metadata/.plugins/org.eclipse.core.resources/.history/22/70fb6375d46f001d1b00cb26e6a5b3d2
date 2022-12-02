@@ -1,0 +1,11 @@
+package com.basic.ref;
+
+public class Project {
+
+	public static void projectProgress() {
+		// TODO Auto-generated method stub
+
+		System.out.println("Project is making Progress");
+	}
+
+}
