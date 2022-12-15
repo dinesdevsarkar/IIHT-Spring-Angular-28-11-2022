@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "firstname": "Dinesh",
+      "lastname": "Devsarkar",
+      "email": "dinesh@gmail.com",
+      "age": 28,
+      "id": 1
+    },
+    {
+      "firstname": "Dinesh",
+      "lastname": "Devsarkar",
+      "age": 21,
+      "gender": "male",
+      "email": "dinesh@email",
+      "id": 2
+    },
+    {
+      "firstname": "Dinesh",
+      "lastname": "Devsarkar",
+      "age": 0,
+      "gender": "male",
+      "email": "dinesh@email",
+      "id": 3
+    }
+  ]
+}

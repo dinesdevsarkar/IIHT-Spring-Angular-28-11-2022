@@ -12,6 +12,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { AboutComponent } from './Components/about/about.component';
 import { ContactComponent } from './Components/contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ContactComponent } from './Components/contact/contact.component';
     FormsModule,
     NoopAnimationsModule,
     MatListModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
