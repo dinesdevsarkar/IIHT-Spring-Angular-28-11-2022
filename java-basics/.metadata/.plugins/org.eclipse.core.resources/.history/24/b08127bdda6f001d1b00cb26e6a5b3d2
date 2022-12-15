@@ -1,7 +1,0 @@
-package com.basic.ref.cons;
-
-public interface IStudent {
-
-	
-	public Student getStudent();
-}
