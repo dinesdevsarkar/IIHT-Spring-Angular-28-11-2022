@@ -13,6 +13,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { AboutComponent } from './Components/about/about.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RegUsersComponent } from './Components/reg-users/reg-users.component';
+import { PipesComponent } from './Components/pipes/pipes.component';
+import { EllipsisPipe } from './Pipe/ellipsis.pipe';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { HttpClientModule } from '@angular/common/http';
     UserformComponent,
     NavbarComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    RegUsersComponent,
+    PipesComponent,
+    EllipsisPipe
   ],
   imports: [
     BrowserModule,

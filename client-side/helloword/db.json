@@ -10,14 +10,6 @@
     {
       "firstname": "Dinesh",
       "lastname": "Devsarkar",
-      "age": 21,
-      "gender": "male",
-      "email": "dinesh@email",
-      "id": 2
-    },
-    {
-      "firstname": "Dinesh",
-      "lastname": "Devsarkar",
       "age": 0,
       "gender": "male",
       "email": "dinesh@email",
