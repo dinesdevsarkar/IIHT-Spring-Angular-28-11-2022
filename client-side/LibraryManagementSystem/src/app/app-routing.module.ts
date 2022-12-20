@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { AddBooksComponent } from './Components/add-books/add-books.component';
+import { GetBooksComponent } from './Components/get-books/get-books.component';
+import { HomeComponent } from './Components/home/home.component';
+
+const routes: Routes = [
+  { path: "", component: HomeComponent },
+   { path: "addbooks", component: AddBooksComponent },
+  { path: "getbooks", component: GetBooksComponent }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
