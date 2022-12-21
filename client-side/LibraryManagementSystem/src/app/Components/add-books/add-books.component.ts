@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Book } from 'src/app/Entity/book';
+import { Book } from 'src/app/model/book';
 import { BookService } from 'src/app/Services/book.service';
 
 @Component({
@@ -18,6 +18,7 @@ export class AddBooksComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   
   createBook(){
     const observables = this.bookService.createBook(this.book);

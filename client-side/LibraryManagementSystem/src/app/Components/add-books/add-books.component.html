@@ -1,5 +1,5 @@
 <div class="container-fluid p-5 center">
-    <h2 class="fs-1 text-center">Add your Books</h2>
+    <h2 class="fs-1 text-center">Add Your Books</h2>
     <div class="row">
         <form class="fs-6">
             <div class="mb-3">
@@ -25,10 +25,10 @@
                     pattern="[A-Za-z ]{4,32}" title="Genre should contains alphabets only" required>
             </div>
             <div class="mb-3 form-check">
-                <input type="boolean" [(ngModel)]="book.bookStatus" class="form-check-input" id="bwd">
+                <input type="checkbox" [(ngModel)]="book.bookStatus" class="form-check-input" id="bwd" name="bwd">
                 <label class="form-check-label" for="bwd">Borrowed</label>
             </div>
-            <button type="submit" (click)="createBook()" class="btn btn-primary">Submit</button>
+            <button type="submit" id="submit" (click)="createBook()" class="btn btn-primary" onclick="Greet()">Submit</button>
         </form>
     </div>
 </div>
